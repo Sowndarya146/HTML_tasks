@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <!-- Profile Image -->
+    <img src="https://w7.pngwing.com/pngs/184/113/png-transparent-user-profile-computer-icons-profile-heroes-black-silhouette-thumbnail.png" width="50px">
+    <h2>SOWNDARYA PALANISAMY</h2>
+    <h3>Fullstack Developer</h3>
+    <hr>
+
+
+    <!-- Contact Information Section -->
+    <h3 style="color: green; text-align: center">CONTACT</h3>
+    <table width="100%">
+        <tr>
+            <td><strong>Phone :</strong> 9790XXXX44</td>
+            <td><strong>Email :</strong> Sowndharya142006@gmail.com</td>
+            <td><strong>Address :</strong> Coimbatore, Tamil Nadu, India</td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <!-- Summary Section -->
+    <h3 style="color: green; text-align: center">SUMMARY</h3>
+    <p>Enthusiastic and diligent first-year student at <b>KG College of Arts and Science</b> pursuing a <b>Bachelor of Arts in Computer Technology</b>. Quick to learn and adapt to new environments, with a strong interest in <b>Programming</b>. Demonstrates a solid work ethic, effective communication skills, and a team-oriented mindset. Eager to gain hands-on experience and contribute positively to a dynamic organization. Focused on developing academic and professional skills, and excited to apply classroom knowledge to real-world scenarios.</p>
+
+
+    <!-- Education Section -->
+    <h3 style="color: green; text-align: center">EDUCATION</h3>
+    <h4>School</h4><p><strong>KV Matric Higher Secondary School, Coimbatore</strong><br>2010-2024</p>
+    <h4>College</h4><p><strong>BSc. Computer Technology</strong><br>KG College of Arts and Science, Coimbatore<br>2024-2027</p>
+
+
+    <!-- Skills Section -->
+    <h3 style="color: green; text-align: center">SKILLS</h3>
+    <p><strong>Programming:</strong> Python, Java, HTML<br>
+    <strong>Tools & Technology:</strong> MS Office, Photoshop<br>
+    <strong>Soft Skills:</strong> Communication, Problem Solving</p>
+
+
+    <!-- Languages Section -->
+    <h3 style="color: green; text-align: center">LANGUAGES</h3>
+    <p><strong>Tamil:</strong> Native<br>
+    <strong>English:</strong> Fluent</p>
+
+
+    <!-- Online Profiles Section -->
+    <h3 style="color: green; text-align: center;">ONLINE PROFILES</h3>
+    <p><strong>GitHub:</strong> Sowndarya146<br>
+    <strong>LinkedIn:</strong> Sowndarya Saraswathi</p>
+
+
+    <!-- Certificates Section -->
+    <h3 style="color: green; text-align: center;">CERTIFICATES</h3>
+    <p><strong>Java Class Library:</strong> <a href="https://coursera.org/share/4e18930878ef93583a68d7e6f71f1964" target="_blank">View Certificate</a><br>
+    <strong>Python Scripting:</strong> <a href="https://coursera.org/share/108a7cc3738d94bc1f68a632fb1687a1" target="_blank">View Certificate</a><br>
+    <strong>Introduction to Programming:</strong> <a href="https://coursera.org/share/75b1bb9699a9509991d04a473e32e13d" target="_blank">View Certificate</a></p>
+</body>
+</html>
+
+
+
