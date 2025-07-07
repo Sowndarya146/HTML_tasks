@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
@@ -20,10 +20,18 @@
   </header>
 
   <section id="about">
-    <h2>About Me</h2>
-    <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
-    <p>I enjoy building responsive and user-friendly web applications.</p>
-  </section>
+     <h2>About</h2>
+     <p>Frontend Developer</p>
+     <div class="btnparent">
+       <div class="btn">
+         <a href="#" download>Download</a>
+       </div>
+       <div class="btn">
+         <a href="#contact">Contact Me</a>
+       </div>
+     </div>
+   </section>
+   
 
   <section id="skills">
     <h2>Skills</h2>
@@ -75,103 +83,142 @@
 
 </body>
 </html>    
-css code :body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
+css code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff3e0;
+    color: rgb(87, 41, 30);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4e342e;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #fcdc94;
+  }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-color: teal;
-}
+  #about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    padding: 50px 20px;
+    text-align: center;
+  }
 
-nav ul li {
-  margin: 0 20px;
-}
+  #about a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  .btnparent {
+    display: flex;
+    gap: 2px;
+    margin-top: 20px;
+  }
 
-nav ul li a:hover {
-  color: antiquewhite;
-}
+  .btn {
+    background-color: #97631e;
+    height: 40px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
 
-section {
-  padding: 20px;
-}
+  .btn:hover {
+    background-color: #be8455;
+  }
+  
+  section {
+    padding: 20px;
+  }
 
-.skill-bar {
-  margin-bottom: 20px;
-}
-
-.skill-bar label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.bar {
-  height: 20px;
-  background-color: lightgray;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.bar.html {
-  width: 90%;
-  background-color: red;
-}
-
-.bar.css {
-  width: 85%;
-  background-color: blue;
-}
-
-.bar.js {
-  width: 80%;
-  background-color: gold;
-}
-
-.project {
-  background-color: #f4f4f4;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
-
-form {
-  max-width: 500px;
-  margin: auto;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: teal;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
+  .skill-bar {
+    margin-bottom: 20px;
+  }
+  
+  .skill-bar label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .bar.html {
+    width: 40%;
+    background-color: rgb(8, 24, 167);
+  }
+  
+  .bar.css {
+    width: 70%;
+    background-color: rgb(236, 122, 15);
+  }
+  
+  .bar.js {
+    width: 60%;
+    background-color: gold;
+  }
+  
+  .project {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
